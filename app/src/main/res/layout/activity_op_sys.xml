@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abc.my_project.op_sys"
+    android:background="@drawable/back">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button12"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12"
+        android:layout_marginBottom="18dp"
+        android:text="BASIC INTRODUCTION"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button13"
+        android:layout_alignLeft="@+id/button13"
+        android:layout_alignStart="@+id/button13"
+        android:layout_marginBottom="19dp"
+        android:text="Types and Properties"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button14"
+        android:layout_alignLeft="@+id/button14"
+        android:layout_alignStart="@+id/button14"
+        android:layout_marginBottom="22dp"
+        android:text="Process Scheduling"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button15"
+        android:layout_alignLeft="@+id/button15"
+        android:layout_alignStart="@+id/button15"
+        android:layout_marginBottom="28dp"
+        android:text="Multi Threading Introduction"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button16"
+        android:layout_alignLeft="@+id/button16"
+        android:layout_alignStart="@+id/button16"
+        android:layout_marginBottom="19dp"
+        android:text="Memory Management"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="Virtual Memory"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+</RelativeLayout>

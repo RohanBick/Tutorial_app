@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abc.my_project.Toc_comp"
+    android:background="@drawable/back">
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="Introduction"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button19"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="DFA and NFA"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button20"
+        android:layout_alignLeft="@+id/button20"
+        android:layout_alignStart="@+id/button20"
+        android:layout_marginBottom="26dp"
+        android:text="Minimisation and Conversion"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button21"
+        android:layout_alignLeft="@+id/button21"
+        android:layout_alignStart="@+id/button21"
+        android:layout_marginBottom="24dp"
+        android:text="Grammars"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button22"
+        android:layout_alignLeft="@+id/button22"
+        android:layout_alignStart="@+id/button22"
+        android:layout_marginBottom="19dp"
+        android:text="Push Down Automata"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Turing Machine"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+</RelativeLayout>
